@@ -7,5 +7,5 @@
  * Дарья Астанина 4.1 - darjjaa           - почта: dasha.astanina@yandex.ru
  * Егор Гермоненко 4.1 - christmas137     - почта: steam.egor585@yandex.ru
 ## Сервисы для работы:
- * [Miro](https://miro.com/app/board/uXjVOIrw3mI=/)
+ * [Miro](https://miro.com/app/board/uXjVOF5l-1Y=/)
  * [Trello](https://trello.com/b/7e2HZP3g/uschedule)
