@@ -9,3 +9,6 @@
 ## Сервисы для работы:
  * [Miro](https://miro.com/app/board/uXjVOF5l-1Y=/)
  * [Trello](https://trello.com/b/7e2HZP3g/uschedule)
+## Документация:
+ * [ТЗ](https://github.com/Finessecret/TP-4.1-team5/blob/main/Документация/Техническое%20задание.docx)
+ * [Курсовой проект]()
