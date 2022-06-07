@@ -1,7 +1,7 @@
 <?php
 
-header('Access-Control-Allow-Origin: ');
-header('Access-Control-Allow-Headers:');
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: *');
 header('Access-Control-Allow-Methods: *');
 header('Access-Control-Allow-Credentials: true');
 header('Content-type: json/application');
@@ -23,7 +23,14 @@ $type = $params[0];
 $id = $params[1];
 
 if($method === 'GET'){
-    print_r($type);
+
+
+    if ($type === 'getUserSchedule'){
+        if (isset($id)) {
+            //echo $id;
+            getUserSchedule($connect, $id);
+        }
+    }
     if($type === 'disciplines') {
 
         if (isset($id)) {
@@ -36,7 +43,12 @@ if($method === 'GET'){
     if($type === 'disciplines'){
         addDisciplines($connect,$_POST);
     } elseif ($type === 'find'){
-        findFromTables($connect, $_POST['findPart']);
+        findFromTables($connect, $POST['findPart']);
+    } elseif ($type === 'register'){
+        register($connect, new User($_POST['name'], $_POST['login'], $_POST['password'], $_POST['facutyCode'],
+            $_POST['userCode'], $_POST['groupCode']) );
+    } elseif ($type === 'login'){
+        login($connect, new Login($_POST['login'], $_POST['password']) );
     }
 } elseif($method === 'PATCH') {
     if ($type === 'disciplines') {
