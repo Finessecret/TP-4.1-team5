@@ -18,7 +18,7 @@
         </div>
         <div class="row justify-content-center text-center" v-for="row in shedule" :key="row.day">
             <h5>{{ row.day }}</h5>
-            <div class="col-auto">
+            <div class="col-auto flex-grow-1">
                 <table class="table">
                     <thead>
                         <tr>
@@ -38,7 +38,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-auto">
+            <div class="col-auto flex-grow-1">
                 <table class="table">
                     <thead>
                         <tr>
