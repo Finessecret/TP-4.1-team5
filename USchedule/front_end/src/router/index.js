@@ -5,6 +5,7 @@ import AboutView from '../components/AboutView.vue'
 import ResetView from '../components/ResetView.vue'
 import PersonalAccountView from '../components/PersonalAccountView.vue'
 import ScheduleTableView from '../components/ScheduleTableView.vue'
+import AdminUserView from '../components/AdminUserView.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/schedule_table',
     name: 'schedule_table',
     component: ScheduleTableView
+  },
+  {
+    path: '/admin_user',
+    name: 'admin_user',
+    component: AdminUserView
   },
 ]
 
