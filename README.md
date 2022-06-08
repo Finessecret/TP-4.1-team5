@@ -12,5 +12,5 @@
 ## Документация:
  * [Техническое задание](https://github.com/Finessecret/TP-4.1-team5/blob/main/Документация/Техническое%20задание.docx)
  * [Техническое задание (pdf)](https://github.com/Finessecret/TP-4.1-team5/blob/main/Документация/Техническое%20задание%20(2).pdf)
- * [Курсовой проект](https://github.com/Finessecret/TP-4.1-team5/blob/main/Документация/Курсовой%20проект.docx)
+ * [Курсовой проект](https://github.com/Finessecret/TP-4.1-team5/blob/main/Документация/Kursovoy_proekt%20(1).pdf)
  * [API документация](https://github.com/Finessecret/TP-4.1-team5/blob/main/USchedule/apiDoc.json)
